@@ -1,0 +1,74 @@
+shift + mod4 + u
+    amixer set Master 5%+
+
+shift + mod4 + d
+    amixer set Master 5%-
+
+ctrl + mod4 + u
+    amixer set Capture 5%+
+
+ctrl + mod4 + d
+    amixer set Capture 5%-
+
+#################################################################
+# CONTROL + ALT KEYS
+#################################################################
+
+#File-Manager
+ctrl + alt + b
+     thunar
+
+#Firefox
+ctrl + alt + f
+     firefox
+
+#Nitrogen
+ctrl + alt + i
+     nitrogen
+
+#Pulse Audio Control
+ctrl + alt + u
+     pavucontrol
+
+#################################################################
+# ALT + ... KEYS
+#################################################################
+
+#Wallpaper trash
+alt + t
+    variety -t
+
+#Wallpaper next
+alt + n
+    variety -n
+
+#Wallpaper previous
+alt + p
+    variety -p
+
+#Wallpaper favorite
+alt + f
+    variety -f
+
+#Wallpaper previous
+alt + Left
+    variety -p
+
+#Wallpaper next
+alt + Right
+    variety -n
+
+#Wallpaper toggle-pause
+alt + Up
+    variety --toggle-pause
+
+#Wallpaper resume
+alt + Down
+    variety --resume
+
+#################################################################
+#     SCREENSHOTS
+#################################################################
+
+shift + mod4 + s
+    flameshot gui
