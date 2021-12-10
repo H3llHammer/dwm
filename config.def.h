@@ -9,14 +9,14 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "JetBrainsMono-Bold:size=11" };
 static const char dmenufont[]       = "JetBrainsMono-Bold:size=11";
 static const char col_gray1[]       = "#282C34"; /* Statusbar background */
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_gray2[]       = "#444444"; /* Gray */
+static const char col_gray3[]       = "#bbbbbb"; /* Light gray */
+static const char col_gray4[]       = "#F3F1F5"; /* White */
+static const char col_cyan[]        = "#383E56"; /* Blue - gray */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeSel]  = { col_gray4, col_cyan,  "#D45079" },
 };
 
 /* tagging */
