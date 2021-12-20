@@ -9,3 +9,4 @@ Patches:
 - [alwaycenter](https://dwm.suckless.org/patches/alwayscenter/dwm-alwayscenter-20200625-f04cac6.diff)
 - [movestack](https://dwm.suckless.org/patches/movestack/dwm-movestack-20211115-a786211.diff)
 - [pertag](https://dwm.suckless.org/patches/pertag/dwm-pertag-20200914-61bb8b2.diff)
+- [status2d](https://dwm.suckless.org/patches/status2d/dwm-status2d-20200508-60bb3df.diff)
