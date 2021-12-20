@@ -1,14 +1,20 @@
 shift + mod4 + u
-    amixer set Master 5%+
+    . ~/Documents/dwm/scripts/Sound.sh up
 
 shift + mod4 + d
-    amixer set Master 5%-
+    . ~/Documents/dwm/scripts/Sound.sh down
 
 ctrl + mod4 + u
-    amixer set Capture 5%+
+    . ~/Documents/dwm/scripts/Microphone.sh up
 
 ctrl + mod4 + d
-    amixer set Capture 5%-
+    . ~/Documents/dwm/scripts/Microphone.sh down
+
+shift + mod4 + m
+    . ~/Documents/dwm/scripts/Mute-vol.sh
+
+ctrl + mod4 + m
+    . ~/Documents/dwm/scripts/Mute-mic.sh
 
 #################################################################
 # CONTROL + ALT KEYS
